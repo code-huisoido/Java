@@ -16,7 +16,7 @@ public class Exercise4 {
 		if (max >= 2) {
 			printnb(" " + 2);
 		}
-		if (max >= 4) {
+		if (max >= 3) {
 			int limit = (int)Math.floor(Math.sqrt(max));
 			for (int i = 3; i < limit; i += 2) {
 				for (int j = i; i * j <= max; j++) {

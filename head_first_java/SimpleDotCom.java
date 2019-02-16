@@ -10,7 +10,6 @@ class SimpleDotCom {
 
         String result = "miss";
         int guess = Integer.parseInt(stringGuess);
-
         for (int cell : locationCells) {
             if (cell == guess) {
                 numOfHits++;
